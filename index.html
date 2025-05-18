@@ -6,6 +6,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body class="max-w-screen-2xl mx-auto">
     
@@ -29,7 +30,7 @@
 
 <!-- Card Section -->
 
-<div class="">
+<div>
     <div class="mt-15">
         <p class="text-3xl md:text-4xl lg:text-3xl font-medium text-center">Favorite Brands</p>
         <p class="text-5xl md:text-6xl lg:text-5xl font-bold leading-[50px] text-center mt-5 md:mt-6">Your Favorite Brands Foods <br> Are Now On Sale</p>
@@ -38,7 +39,7 @@
 
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 md:mt-8 lg:mt-15">
-        <div class="card bg-base-100 w-full md:w-[50%] lg:w-96 shadow-sm">
+        <div class="card bg-base-100 w-full lg:w-96 shadow-sm">
             <figure class="px-10 pt-10">
                 <img
                 src="./assets/pizza.png"
@@ -52,7 +53,7 @@
             </div class="text-xs md:text-sm lg:text-base">
         </div>
 
-        <div class="card bg-base-100 w-full md:w-[50%] lg:w-96 shadow-sm">
+        <div class="card bg-base-100 w-full lg:w-96 shadow-sm">
             <figure class="px-10 pt-10">
                 <img
                 src="./assets/biriyani.png"
@@ -66,7 +67,7 @@
             </div>
         </div>
 
-        <div class="card bg-base-100 w-full md:w-[50%] lg:w-96 shadow-sm">
+        <div class="card bg-base-100 w-full lg:w-96 shadow-sm">
             <figure class="px-10 pt-10">
                 <img
                 src="./assets/burger.png"
@@ -79,6 +80,23 @@
                 <p class="text-xs md:text-sm lg:text-base">A card component has a figure, a body part, and inside body there are title and actions parts</p>
             </div>
         </div>
+    </div>
+</div>
+
+<!-- Social -->
+
+<div class="grid grid-cols-1 lg:grid-cols-2 mt-15">
+    <img class="h-[100%] w-full" src="./assets/foods.png" alt="">
+    <div class="mt-5 flex flex-col justify-center">
+        <p class="text-2xl md:text-5xl lg:text-4xl md:leading-12 lg:leading-[35px] text-center">We always make sure to provide <br> you with good food</p>
+        <p class="text-base md:text-3xl lg:text-xl text-center mt-[25px]">Don’t miss a thing! Subscribe to our newsletter</p><hr class="mt-[15px] text-gray-500">
+        <p class="text-base md:text-3xl lg:text-xl text-center my-[10px]">Follow Us On</p><hr class="text-gray-500">
+        <p class="mt-[15px] text-base md:text-3xl lg:text-xl text-center">
+            <i class="fa-brands fa-facebook text-xl ml-[50px]"></i>
+            <i class="fa-brands fa-x-twitter text-xl ml-[50px]"></i>
+            <i class="fa-brands fa-instagram text-xl ml-[50px]"></i>
+            <i class="fa-brands fa-pinterest text-xl ml-[50px]"></i>
+        </p>
     </div>
 </div>
 </body>
